@@ -1,0 +1,9 @@
+Dependencies:
+	Python Image Library (http://www.pythonware.com/products/pil/)
+
+This script quickly resizes a single or multiple images which are dragged and dropped onto the .py/.pyw file. The default options are my preferences for resizing large scans into smaller cover images.
+
+The maximum dimensions are specified by max_width and max_height, keeping the original aspect ratio. The image is resized using the best quality anti-aliasing and saved with 85% jpeg quality [can be changed in "img.save(newpath, quality=85)"]. 
+To drag and drop without having the console pop up, rename the script extension to .pyw.
+
+Drag and dropping onto Python files works by default in Python 2.6 and later. For previous versions of Python, refer to http://bugs.python.org/issue1656675
